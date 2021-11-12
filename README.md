@@ -1,3 +1,5 @@
-# 3w7.github.io
+# piracy.2b2t.bar
 
-sexo
+to troll my discord gc idfk
+
+# og code by mr xeny
