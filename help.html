@@ -25,9 +25,12 @@ var balls = myArray[Math.floor(Math.random()*myArray.length)];
         console.log("test: " + balls)
     </script>
 <body>
-<!-- (A) TARGET ELEMENT -->
 <div class="imgbox" id="changemedaddy">
-    <img class="center-fit" src=balls;>
+    <script>
+//it's actually set by another function
+//thank you stack overflow <33: https://stackoverflow.com/questions/45776989/how-do-i-put-a-variable-in-an-src-attribute
+document.getElementById("changemedaddy").innerHTML = "<img src='" + balls + "'>";
+    </script>
 </div>
 </body>
 </html>
